@@ -3,7 +3,11 @@ Enhanced Visual Tracking with Inverted Residual Mobile Block: A SiamRPN-based Ap
 
 
 Download testing datasets
-Download datasets and put them into testing_dataset directory. Jsons of commonly used datasets can be downloaded from [Google Drive or BaiduYun](https://pan.baidu.com/s/1js0Qhykqqur7_lNRtle1tA#list/path=%2F). If you want to test tracker on new dataset, please refer to [pysot-toolkit](https://github.com/StrangerZhang/pysot-toolkit) to setting testing_dataset
+Download datasets and put them into testing_dataset directory.
+Jsons of commonly used datasets can be downloaded from 
+[Google Drive or BaiduYun](https://pan.baidu.com/s/1js0Qhykqqur7_lNRtle1tA#list/path=%2F). 
+If you want to test tracker on new dataset, please refer to 
+[pysot-toolkit](https://github.com/StrangerZhang/pysot-toolkit) to setting testing_dataset
 
 
 
@@ -28,7 +32,9 @@ python ../../tools/eval.py 	 \
 
  Training
  Prepare training dataset, detailed preparations are listed in training_dataset directory.
- Download pretrained backbones from [Google Drive](https://drive.google.com/drive/folders/1DuXVWVYIeynAcvt9uxtkuleV6bs6e3T9) and put them in pretrained_models directory
+ Download pretrained backbones from 
+ [Google Drive](https://drive.google.com/drive/folders/1DuXVWVYIeynAcvt9uxtkuleV6bs6e3T9) 
+ and put them in pretrained_models directory
 
  VID http://image-net.org/challenges/LSVRC/2017/
 YOUTUBEBB https://research.google.com/youtube-bb/
