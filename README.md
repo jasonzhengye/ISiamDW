@@ -3,6 +3,7 @@ Enhanced Visual Tracking with Inverted Residual Mobile Block: A SiamRPN-based Ap
 
 
 Download testing datasets
+
 Download datasets and put them into testing_dataset directory.
 Jsons of commonly used datasets can be downloaded from 
 [Google Drive or BaiduYun](https://pan.baidu.com/s/1js0Qhykqqur7_lNRtle1tA#list/path=%2F). 
@@ -13,15 +14,20 @@ If you want to test tracker on new dataset, please refer to
 
 
 Test tracker
+
 cd experiments/siamrpn_r50_l234_dwxcorr
-python -u ../../tools/test.py 	\
+
+python 
+        -u ../../tools/test.py 	\
 	--snapshot model.pth 	\ # model path
 	--dataset VOT2018 	\ # dataset name
 	--config config.yaml	  # config file
 
 
 Eval tracker
-python ../../tools/eval.py 	 \
+
+python 
+        ../../tools/eval.py 	 \
 	--tracker_path ./results \ # result path
 	--dataset VOT2018        \ # dataset name
 	--num 1 		 \ # number thread to eval
@@ -31,6 +37,7 @@ python ../../tools/eval.py 	 \
 
 
  Training
+ 
  Prepare training dataset, detailed preparations are listed in training_dataset directory.
  Download pretrained backbones from 
  [Google Drive](https://drive.google.com/drive/folders/1DuXVWVYIeynAcvt9uxtkuleV6bs6e3T9) 
